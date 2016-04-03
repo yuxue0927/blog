@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load custom_markdown %}
+
+{% block content %}
+<div class="posts">
+        <p> 请输入关键字搜索 </p>
+
+                    <form class="pure-form" action="/search/" method="get">
+                    <input class="pure-input-3-3" type="text" name="s" placeholder="search">
+                    </form>
+
+
+</div>
+{% endblock %}     
