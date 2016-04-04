@@ -1,4 +1,4 @@
 个人Blog
 
 #django测试
-#68D600
+#https://github.com/yuxue0927/blog.git
